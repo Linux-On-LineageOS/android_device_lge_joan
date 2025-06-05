@@ -26,3 +26,4 @@ PRODUCT_SOONG_NAMESPACES += \
 
 # Inherit proprietary blobs
 $(call inherit-product, vendor/lge/joan/joan-vendor.mk)
+$(call inherit-product, vendor/lindroid/lindroid.mk)
